@@ -1,3 +1,21 @@
+### Setup
+```
+sudo su -
+yum update
+yum groupinstall -y "development tools"
+yum install -y lsof wget vim-enchanced words which 
+```
+
+```
+git config --global user.name " "
+git config --global user.email " "
+```
+
+```
+curl https://raw.githubusercontent.com/linuxacademy/contentpython3-sysadmin/master/helpers/bashrc -o ~/.bashrc
+curl https://raw.githubusercontent.com/linuxacademy/contentpython3-sysadmin/master/helpers/vimrc -o ~/.vimrc
+
+```
 
 ```
 * code-server
