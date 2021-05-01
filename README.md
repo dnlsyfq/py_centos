@@ -54,4 +54,24 @@ code-server --link
 
 ```
 
+---
 
+# Centos 
+
+* hello.py
+```
+#!/usr/bin/python3
+print("Hello, World!")
+```
+
+* run 
+```
+chmod u+x hello.py
+./hello.py
+```
+
+* short hand
+```
+mv hello.py hello
+./hello
+```
