@@ -108,3 +108,13 @@ while True:
         else:
                 print('Error')
 ```
+
+# Library Script
+```
+import time
+now = time.localtime()
+now.tm_hour
+```
+```
+
+```
